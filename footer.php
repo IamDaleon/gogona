@@ -11,24 +11,48 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'gogona_ver1' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'gogona_ver1' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'gogona_ver1' ), 'gogona_ver1', '<a href="http://underscores.me/">Underscores</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+  <!-- Site footer -->
+  <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <p class="text-justify">GOGONA.com<br /> <i>Your solution to your packaging needs.</i>
+			<hr />
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto, beatae delectus optio veniam pariatur animi ut dolorum expedita provident fugiat id soluta eligendi laboriosam vero suscipit quo inventore corporis?</p>
+          </div>
 
-<?php wp_footer(); ?>
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+				<li><a href="http://scanfcode.com/category/c-language/">Packaging</a></li>
+				<li><a href="http://scanfcode.com/category/front-end-development/">Tracking</a></li>
+				<li><a href="http://scanfcode.com/category/android/">More Services</a></li>
+				<li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">Our Story</a></li>
+              <li><a href="http://scanfcode.com/contact/">Get in Touch</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+         <a href="/about">GOGONA</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+</footer>
 
 </body>
 </html>

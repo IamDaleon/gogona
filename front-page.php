@@ -53,7 +53,6 @@ get_header();
     <section></section>
     <section></section>
     <section></section>
-	<h1>Hello World!</h1>
 
 <?php
 get_sidebar();
