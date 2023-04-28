@@ -24,20 +24,20 @@
           <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
             <ul class="footer-links">
-				<li><a href="http://scanfcode.com/category/c-language/">Packaging</a></li>
-				<li><a href="http://scanfcode.com/category/front-end-development/">Tracking</a></li>
-				<li><a href="http://scanfcode.com/category/android/">More Services</a></li>
-				<li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+				<li><a href="/packaging">Packaging</a></li>
+				<li><a href="/tracking">Tracking</a></li>
+				<li><a href="/services">More Services</a></li>
+				<li><a href="/sitemap">Sitemap</a></li>
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">Our Story</a></li>
-              <li><a href="http://scanfcode.com/contact/">Get in Touch</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="/about">Our Story</a></li>
+              <li><a href="/contact">Get in Touch</a></li>
+              <li><a href="/investors">Contribute</a></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
             </ul>
           </div>
         </div>

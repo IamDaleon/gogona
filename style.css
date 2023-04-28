@@ -36,6 +36,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 ## Layouts
 # Components
 	- Navigation
+	- 404 Page
 	- Posts and pages
 	- Comments
 	- Widgets
@@ -485,7 +486,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 3em 3em;
+	margin-bottom: 3em;
 }
 
 ul {
@@ -921,7 +922,7 @@ body {
   opacity: 0.8;
 } */
 
-@media (max-width: 769px) {
+@media (max-width: 905px) {
   .navbar .nav-links {
     position: absolute;
     top: 0;
@@ -996,6 +997,24 @@ body {
 	}
 }
 
+/* 404 Error page
+--------------------------------------------- */
+.errsite{
+	/* background-image: url("./assets/images/whitebox.jpg"); */
+	background-repeat: no-repeat;
+    background-size: 100%;
+	min-height: 50vh;
+	text-align: center;
+	/* height: 45px; */
+	/* color: white; */
+}
+
+.errsite .page-title{
+	padding-top: 315px;
+	font-weight: 700;
+} */
+
+
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -1023,7 +1042,13 @@ body {
 }
 
 .site-main{
-	padding: 85px 0;
+	padding: 13% 0;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.spacer{
+	padding: 13% 0;
 	min-height: 100vh;
 	text-align: center;
 }
@@ -1155,7 +1180,7 @@ body {
 .site-footer hr
 {
   border-top-color:#bbb;
-  opacity:0.5
+  opacity:0.5;
 }
 .site-footer hr.small
 {
